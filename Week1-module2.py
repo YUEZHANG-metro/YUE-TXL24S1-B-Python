@@ -58,4 +58,4 @@ num7 = random.randint(1,6)
 codeB =f"{num4}{num5}{num6}{num7}"
 
 print(f'The 3digit code is {codeA}')
-print(f'The 3digit code is {codeB}')
+print(f'The 4digit code is {codeB}')
