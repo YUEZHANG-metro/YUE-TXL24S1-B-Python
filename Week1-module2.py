@@ -36,7 +36,7 @@ talents = float(input("Enter your talent:"))
 pounds = float(input("Enter your pounds:"))
 lots = float(input("Enter your lots:"))
 total_pounds = talents* 20 + pounds
-total_lots = total_pounds* 32+ lots
+total_lots = total_pounds* 32 + lots
 total_grams = total_lots* 13.3
 #convert to kg
 total_kilograms = int(total_grams / 1000)
