@@ -41,7 +41,7 @@ total_grams = total_lots* 13.3
 #convert to kg
 total_kilograms = int(total_grams / 1000)
 remainder_grams = total_grams % 1000
-print("There are",total_kilograms,"kgs,and",remainder_grams,"grams")
+print(f'There are {total_kilograms}kgs, and {remainder_grams:.2f}grams')
 
 # 6.Write a program that draws two random combinations of numbers for a combination lock
 # a 3-digit code where each number is between 0 and 9.
