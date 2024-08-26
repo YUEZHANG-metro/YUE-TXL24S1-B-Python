@@ -9,17 +9,17 @@ radius = float(input("Enter your radius:"))
 area = math.pi*radius **2
 print("The area is",area)
 
-# # 3.Write a program that asks the user for the length and width of a rectangle.
-# # The program then prints out the perimeter and area of the rectangle.
-# # The perimeter of a rectangle is the sum of the lengths of each four sides.
+# 3.Write a program that asks the user for the length and width of a rectangle.
+# The program then prints out the perimeter and area of the rectangle.
+# The perimeter of a rectangle is the sum of the lengths of each four sides.
 length = float(input("Enter your length:"))
 width = float(input("Enter your width:"))
 area = length*width
 perimeter = 2*(length+width)
 print("The area is",area,"The perimeter is",perimeter)
-#
-# # 4.Write a program that asks the user for three integer numbers.
-# # The program prints out the sum, product, and average of the numbers.
+
+# 4.Write a program that asks the user for three integer numbers.
+# The program prints out the sum, product, and average of the numbers.
 num1 = int(input("Enter 1st number:"))
 num2 = int(input("Enter 2nd number:"))
 num3 = int(input("Enter 3rd number:"))
@@ -41,7 +41,7 @@ total_grams = total_lots* 13.3
 #convert to kg
 total_kilograms = int(total_grams / 1000)
 remainder_grams = total_grams % 1000
-print(f'There are {total_kilograms}kgs, and {remainder_grams:.2f}grams')
+print(f'There are {total_kilograms} kilograms, and {remainder_grams:.2f} grams')
 
 # 6.Write a program that draws two random combinations of numbers for a combination lock
 # a 3-digit code where each number is between 0 and 9.
