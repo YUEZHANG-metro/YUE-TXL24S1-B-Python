@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c2718b4-d1ff-4207-b8d9-4ceda0fe820a" name="Changes" comment="week2 assignment module3">
-      <change afterPath="$PROJECT_DIR$/Week2-module3(on class0827).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2-module4(on class0829).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2-module3(class0827).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week2-module4(class0829).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week3-module4-assignment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +56,11 @@
     "Python.Week2-module 3.executor": "Run",
     "Python.Week2-module3.executor": "Run",
     "Python.Week2-module4(on class0829).executor": "Run",
+    "Python.Week3-module4-assignment.executor": "Run",
+    "Python.Week3-module5(class 0903).executor": "Run",
     "Python.hello.executor": "Run",
     "Python.module 3.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -66,7 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,6 +102,9 @@
       <workItem from="1724661721449" duration="189000" />
       <workItem from="1724753023073" duration="12319000" />
       <workItem from="1724911327929" duration="13203000" />
+      <workItem from="1725210123594" duration="173000" />
+      <workItem from="1725217924398" duration="251000" />
+      <workItem from="1725305277372" duration="21774000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -179,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724926447077</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="week2 assignment module3">
+      <option name="closed" value="true" />
+      <created>1725210181424</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725210181424</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,11 +209,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$hello.coverage" NAME="hello Coverage Results" MODIFIED="1724177183699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1725440030945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$Week2_module_3.coverage" NAME="Week2-module 3 Coverage Results" MODIFIED="1724755826234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$Week3_module4_assignment.coverage" NAME="Week3-module4-assignment Coverage Results" MODIFIED="1725440389458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$Week1_module2.coverage" NAME="Week1-module2 Coverage Results" MODIFIED="1724661819705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$module_3.coverage" NAME="module 3 Coverage Results" MODIFIED="1724753559996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$Week2_module4_on_class0829_.coverage" NAME="Week2-module4(on class0829) Coverage Results" MODIFIED="1724920216664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$Week2_module3.coverage" NAME="Week2-module3 Coverage Results" MODIFIED="1724758194230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$Week3_module5_class_0903_.coverage" NAME="Week3-module5(class 0903) Coverage Results" MODIFIED="1725365454051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/YUE_TXL24S1_B_Python$Week_module3_assignment.coverage" NAME="Week-module3-assignment Coverage Results" MODIFIED="1724792307006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
