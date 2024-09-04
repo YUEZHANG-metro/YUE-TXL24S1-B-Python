@@ -1,11 +1,11 @@
-# #Excrsise 1 print out all numbers divisible by three in the range of 1-1000.
+# Exercise1 print out all numbers divisible by three in the range of 1-1000.
 num = 1
 while 1 <= num <= 1000:
     if num % 3 ==0:
         print(f'{num}, is divisible by 3!')
     num = num + 1
 
-#converts inches to centimeters until the user inputs a negative value.
+# Exercise2 converts inches to centimeters until the user inputs a negative value.
 inches= float(input("Enter inches:"))
 centimeters = inches * 2.54
 while inches >= 0:
@@ -13,7 +13,7 @@ while inches >= 0:
     inches = float(input("Enter inches:"))
 print('Ends')
 
-# asks the user to enter numbers until they enter an empty string to quit.
+# Exercise3 asks the user to enter numbers until they enter an empty string to quit.
 # Finally, the program prints out the smallest and largest number from the numbers it received.
 num_list = [] #using list function
 while True:
@@ -25,6 +25,7 @@ while True:
 num_list.sort()
 print(f'The min number you put is {num_list[0]}, and the max one is {num_list[-1]}')
 
+# Exercise4 guess number
 import random
 num = random.randint(1,10)
 while True:
@@ -36,7 +37,8 @@ while True:
         print("Too low!")
     elif i > num:
         print("Too high!")
-#Write a program that asks the user for a username and password.
+
+# Exercise5 Write a program that asks the user for a username and password.
 attempts = 0
 
 while  attempts < 5 :
@@ -53,8 +55,7 @@ while  attempts < 5 :
 if attempts == 5:
     print("Assess denied")
 
-# calculating an approximation for the value of pi (π)
-
+# Exercise6 calculating an approximation for the value of pi (π)
 import random
 points = int(input("Enter how many points to generate"))
 inCircle = 0
