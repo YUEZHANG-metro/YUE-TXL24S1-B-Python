@@ -3,7 +3,7 @@ num = 1
 while 1 <= num <= 1000:
     if num % 3 ==0:
         print(f'{num}, is divisible by 3!')
-    num = num + 1
+    num += 1
 
 # Exercise2 converts inches to centimeters until the user inputs a negative value.
 inches= float(input("Enter inches:"))
@@ -24,6 +24,24 @@ while True:
         break
 num_list.sort()
 print(f'The min number you put is {num_list[0]}, and the max one is {num_list[-1]}')
+
+
+largest = smallest = None
+while True:
+    user_num = input("Enter a number or enter "" to stop")
+    if user_num == "":
+        break
+    number = float(user_num)
+    if largest is not None and largest > number:
+        largest = number
+    if smallest is not None and smallest < number:
+        smallest = number
+    if smallest is None and largest is None:
+        smallest = number
+        largest = number
+
+print(largest)
+print(smallest)
 
 # Exercise4 guess number
 import random
