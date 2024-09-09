@@ -72,6 +72,7 @@ while  attempts < 5 :
 
 if attempts == 5:
     print("Assess denied")
+#set the username and password as global.
 
 # Exercise6 calculating an approximation for the value of pi (π)
 import random
@@ -83,7 +84,7 @@ while counter < points:
     xOfPoint = float(random.uniform(-1, 1))
     yOfPoint = float(random.uniform(-1, 1))
 
-    if xOfPoint**2 + yOfPoint **2 <= 1: #the point is in
+    if xOfPoint**2 + yOfPoint **2 < 1: #the point is in
         inCircle += 1
     counter +=1
 
