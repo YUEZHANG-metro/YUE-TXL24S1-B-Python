@@ -1,4 +1,3 @@
-'''
 print("question1")
 import random
 def roll_dice():
@@ -90,7 +89,7 @@ def main():
 main()
 print(type(is_uneven_you_will_die))
 
-'''
+
 print("question6")
 
 def unit_price(cm,price):
