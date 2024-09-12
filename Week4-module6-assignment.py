@@ -27,23 +27,20 @@ def roll_dice(side):
     return random.randint(1,side)
 
 main()
+#表达main有三种方式：1.def main；2.直接靠左，默认是main；3.__main__
 
 print("question3")
 def gasoline_litre(gallon_quantity):
     return round((gallon_quantity * 3.79),2)
 
-def main():
+while True:
+    gallon_quantity = int(input("How many gallons:"))
 
-    while True:
-        gallon_quantity = int(input("How many gallons:"))
-
-        if gallon_quantity < 0:
-            print("You give a negative number")
-            break
-        else:
-            print(f'{gallon_quantity} gallons is {gasoline_litre(gallon_quantity)}litres')
-
-main()
+    if gallon_quantity < 0:
+        print("You give a negative number")
+        break
+    else:
+        print(f'{gallon_quantity} gallons is {gasoline_litre(gallon_quantity)}litres')
 
 
 print("question4")
@@ -69,8 +66,11 @@ main()
 print("question5")
 
 def even(numbers):
-    return [number
-            for number in numbers if number % 2 == 0]
+    even_list = []
+    for number in numbers:
+        if number % 2 == 0:
+            even_list.append(number)
+    return even_list
 
 def main():
     numbers = []
@@ -88,7 +88,7 @@ def main():
     print(numbers)
 
 main()
-print(type(is_uneven_you_will_die))
+
 
 
 print("question6")

@@ -1,15 +1,16 @@
-# Q1 The program rolls all the dice once and
-# prints out the sum of the numbers.
+# Q1 The program rolls all the dice once and prints out the sum of the numbers.
 print("Question1")
 import random
 dice = int(input("How many dices? "))
 diceSet = []
 for i in range(dice):
-    i = random.randint(1,6)
+    dic = random.randint(1,6)  #i is hard to identify,use dice_roll.
     diceSet.append(i)
 sum_of_dices = sum(diceSet)
+# total_sum += dice_roll
 print(diceSet)
 print(sum_of_dices)
+
 
 print("Question2")
 numbers = []
@@ -51,3 +52,4 @@ for i in range(5):
 
 for city in cities:
     print(city)
+#list出现时，基本必须用for loop和index
