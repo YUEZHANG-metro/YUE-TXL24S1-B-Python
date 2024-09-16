@@ -4,9 +4,9 @@ print('Question1')
 import mysql.connector
 
 def get_ai_info(ICAO):
-    sql = f"SELECT name, municipality FROM airport WHERE ident='{ICAO}'"
+    sql = f"SELECT name, municipality FROM airport WHERE ident = %s"
     cursor = connection.cursor()
-    cursor.execute(sql)
+    cursor.execute(sql, (ICAO,))
     result = cursor.fetchall()
     if cursor.rowcount > 0:
         for row in result:
@@ -111,8 +111,6 @@ def get_distance(name1, name2):
 
 get_distance(name1,name2)
 connection.close()
-
-
 
 
 
