@@ -27,7 +27,6 @@ def roll_dice(side):
     return random.randint(1,side)
 
 main()
-#表达main有三种方式：1.def main；2.直接靠左，默认是main；3.__main__
 
 print("question3")
 def gasoline_litre(gallon_quantity):

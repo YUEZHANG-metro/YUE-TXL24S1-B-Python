@@ -52,4 +52,3 @@ for i in range(5):
 
 for city in cities:
     print(city)
-#list出现时，基本必须用for loop和index
