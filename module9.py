@@ -78,7 +78,7 @@ while True:
     print(f"\n--- Race Time: {race_time} hour(s) ---")
     for car in car_list:
         # it is more close to a real life that the car is start at a speed instead of 0.
-        car.change_initial_speed(120)
+        car.change_initial_speed(100)
         car.accelerate(random.randint(-10,15))
         car.drive(1)
 
