@@ -82,7 +82,7 @@ while True:
         car.accelerate(random.randint(-10,15))
         car.drive(1)
 
-        print(f'{car.registration_number} -> {car.current_speed} km/h, travelled {car.travelled_distance} km')
+        print(f'{car.registration_number} drives at {car.current_speed} km/h this round, travelled {car.travelled_distance} km')
 
         if car.travelled_distance >= total_distance:
             print(f"{car.registration_number} win!")
