@@ -13,10 +13,6 @@ class Car:
         self.current_speed = given_speed
         return self.current_speed
 
-    # def change_travelled_distance(self, new_travelled_distance):
-    #     self.travelled_distance = new_travelled_distance
-    #     return self.travelled_distance
-
     def accelerate(self, acceleration):
         self.current_speed = self.current_speed + acceleration
         # The speed of the car must stay below the set maximum and cannot be less than zero.
@@ -31,9 +27,6 @@ class Car:
         self.travelled_distance += hours * self.current_speed
         return self.travelled_distance
 
-    # def __str__(self):
-    #     return (f"The car numbered {self.registration_number} has a maximum speed {self.maximum_speed} km/h, "
-    #             f"and the current speed is {self.current_speed} km/h, travelled {self.travelled_distance} km")
 
 class Race:
     def __init__(self, name:str, kilometers:int, car_list:list):
@@ -64,28 +57,27 @@ class Race:
 GDD_list = []
 race1 = Race("Grand Demolition Derby",8000,GDD_list)
 
-
 car_number = 1
 while len(GDD_list) < 10:
     registration_number = f'ABC-{car_number}'
     car_number += 1
     maximum_speed = random.randint(100, 200)
-    GDD_list.append(Car(registration_number,maximum_speed))
-    for car in GDD_list:
-        # it is more close to a real life that the car is start at a speed instead of 0.
-        car.change_initial_speed(100)
-        car.accelerate(random.randint(-10, 15))
+    car= Car(registration_number, maximum_speed)
+    # it is more close to a real life that the car is start at a speed instead of 0.
+    car.change_initial_speed(100)
+    car.accelerate(random.randint(-10, 15))
+    GDD_list.append(car)
 
 play_hour = 0
 while True:
+    play_hour += 1
+    race1.hour_passes(1)
+    if play_hour % 10 == 0:
+        race1.print_status()
+
     if race1.race_finished():
         print(f"{race1.race_finished()}")
         break
-    else:
-        play_hour += 1
-        race1.hour_passes(1)
-        if play_hour % 10 == 0:
-            race1.print_status()
 
 print("Final race status:")
 race1.print_status()
